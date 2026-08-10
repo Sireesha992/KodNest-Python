@@ -1,0 +1,13 @@
+sentence = " Learn Python Step by Step "
+cleaned = sentence.strip()
+normalized = cleaned.lower().replace('.','')
+words = normalized.split()
+slug = "-".join(words)
+uppercase = normalized.upper()
+position = normalized.find("python")
+print("Cleaned:",cleaned)
+print("Normalized:",normalized)
+print("Words:",words)
+print("Slug:",slug)
+print("Uppercase:",uppercase)
+print("Python Position:",position)
